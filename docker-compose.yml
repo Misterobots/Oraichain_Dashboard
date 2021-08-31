@@ -4,8 +4,6 @@ services:
     image: grafana/grafana
     user: "472"
     tty: true
-    depends_on:
-      - prometheus
     ports:
       - 3000:3000    
     environment:
