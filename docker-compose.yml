@@ -1,14 +1,5 @@
 version: '3.3'
 services:
-  prometheus:
-    image: prom/prometheus    
-    volumes:
-      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml      
-      - ./prometheus/data:/prometheus
-    command:
-      - '--config.file=/etc/prometheus/prometheus.yml'     
-      - '--storage.tsdb.path=/prometheus' 
-
   grafana:
     image: grafana/grafana
     user: "472"
