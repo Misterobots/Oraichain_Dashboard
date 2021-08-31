@@ -10,7 +10,7 @@ scrape_configs:
       - targets: ['35.236.177.236:26660']
         labels:
           instance: google-entry  
-      - targets: ['64.225.53.108:26660']
+      - targets: ['45.58.56.135:26660']
         labels:
-          instance: digitalocean-entry    
+          instance: Oraibots    
      
